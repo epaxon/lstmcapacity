@@ -9,7 +9,7 @@ class Input_Generator(object):
         n_prop is the number time steps of forward/backprop we need input for
         '''
         self.text = text
-        self.n_char = text.size
+        self.n_char = len(text)
         self.n_batch = n_batch
         self.n_prop = n_prop
         self.n_alpha = len(alphabet)
