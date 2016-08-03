@@ -40,4 +40,4 @@ def generate_rand_xml_sequence(num_chars_per_tag=[10], tag_depth=[4], num_tag_bl
             tag_seq = np.hstack((tag_seq, tag_close_symbol, lasttagchars, tag_end_symbol))
         
     
-    return tag_seq
+    return tag_seq, alphabet
